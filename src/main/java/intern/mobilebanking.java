@@ -82,7 +82,6 @@ class PayBills_para extends G_pay{
     }
 
     public int bill(){
-//            Scanner bill_obj= new Scanner(System.in);
         System.out.println("Enter the amount to billed");
         int Billed_amount=bill_obj.nextInt();
         bill_obj.nextLine();
